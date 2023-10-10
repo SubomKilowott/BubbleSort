@@ -36,7 +36,7 @@
         $inputElements = $_POST["arr_elements"];
         $arr = preg_split("/\r\n|\n|\r/", $inputElements);
 
-        /
+        
         $arr = array_map('intval', $arr);
 
         
